@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_margin="20dp"
+    tools:context=".lal_about">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:text="Lalbagh Fort || লালবাগ কেল্লা"
+            android:background="#add8e6"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:text="দর্শনীয় স্থান (Tourist Spot):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="115dp"
+        android:text="পরীবিবির কবর, দূর্গ মসজিদ, সুন্দর ফোয়ারা, কেল্লা জাদুঘর। "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="200dp"
+        android:text="পরিদর্শনের সময়সূচী (Time):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="235dp"
+        android:text="গ্রীষ্মকালে সকাল ১০টা থেকে সন্ধ্যা ৬টা পর্যন্ত কেল্লা খোলা থাকে। আর শীতকালে সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত খোলা থাকে। রোববার পূর্ণ দিবস, সোমবার অর্ধদিবস কেল্লা বন্ধ থাকে। এ ছাড়া সব সরকারি ছুটির দিন লালবাগ কেল্লা বন্ধ থাকে।"
+
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="410dp"
+        android:text="টিকেট মূল্য (Ticket Price):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="445dp"
+        android:text="বাংলাদেশী দর্শনার্থীদের জন্য জনপ্রতি ১০ টাকা এবং বিদেশী দর্শনার্থীদের জন্য জনপ্রতি ১০০ টাকা (Tk 100 per person for foreign visitors.)। ৫ বছর বয়সের নীচে বাচ্চাদের জন্য কোন টিকেট লাগবেনা।"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="610dp">
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

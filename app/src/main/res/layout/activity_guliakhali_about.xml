@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_margin="20dp"
+    tools:context=".guliakhali_about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Guliakhali Sea Beach || গুলিয়াখালী সমুদ্র সৈকত"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="95dp"
+        android:text="দর্শনীয় স্থান (Tourist Spot):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="130dp"
+        android:text="অনিন্দ্য সুন্দর গুলিয়াখালি সী বিচ কে সাজাতে প্রকৃতি কোন কার্পন্য করেনি। একদিকে দিগন্তজোড়া সাগর জলরাশি আর অন্য দিকে কেওড়া বন এই সাগর সৈকতকে করেছে অনন্য। কেওড়া বনের মাঝ দিয়ে বয়ে যাওয়া খালের চারিদিকে কেওড়া গাছের শ্বাসমূল লক্ষ করা যায়, এই বন সমুদ্রের অনেকটা ভেতর পর্যন্ত চলে গেছে। এখানে পাওয়া যাবে সোয়াম্প ফরেস্ট ও ম্যানগ্রোভ বনের মত পরিবেশ। গুলিয়াখালি সৈকতকে ভিন্নতা দিয়েছে সবুজ গালিচার বিস্তৃত ঘাস। সাগরের পাশে সবুজ ঘাসের উন্মুক্ত প্রান্তর নিশ্চিতভাবেই আপনার চোখ জুড়াবে। "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="320dp"
+        android:text="সুযোগ সুবিধা (Facility):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="355dp"
+        android:text="গুলিয়াখালি সি বিচে থাকা ও খাবার কোন ব্যবস্থা নেই। শুধুমাত্র সী-বিচে ছোট একটি দোকান আছে তাই প্রয়োজনে সীতাকুণ্ড বাজার থেকে সাথে খাবার নিয়ে নিন। থাকতে চাইলে সীতাকুণ্ড বাজারে সাইমুন এবং সৌদিয়া হোটেলে থাকতে পারবেন। সাইমুনে ৩০০ থেকে ৬০০ টাকায় রুম পাবেন আর সৌদিয়ায় রুম পেতে আপনাকে গুনতে হবে ৬০০ থেকে ১৬০০ টাকা। বুকিং দিতে ফোন করতে পারেন 01991-787979, 01816-518119 নাম্বারে। আরো ভালো কোথাও থাকতে চাইলে আপনাকে চট্রগ্রাম চলে যেতে হবে।"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="610dp">
+        <Button
+            android:id="@+id/back25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

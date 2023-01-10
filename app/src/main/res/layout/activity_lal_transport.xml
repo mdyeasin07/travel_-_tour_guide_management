@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/bg2"
+    tools:context=".lal_transport">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Lalbagh Fort || লালবাগ কেল্লা"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="যাতায়াত ব্যবস্থা (Transportation system):"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="115dp"
+        android:text="লালবাগ কেল্লায় যেতে হলে প্রথমত আপনাকে ঢাকায় পৌঁছে যেতে হবে। এরপর ঢাকার গুলিস্তানের গোলাপ শাহের মাজারে এসে লেগুনা বা টেম্পু অথবা রিকশা- যেকোনো একটাতে চড়ে সোজা চলে যাওয়া যাবে লালবাগ কেল্লায়। "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="620dp">
+        <Button
+            android:id="@+id/back4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:layout_margin="10dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

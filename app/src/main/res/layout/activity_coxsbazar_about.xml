@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_margin="20dp"
+    tools:context=".coxsbazar_about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="Cox's Bazar || কক্সবাজার"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:text="দর্শনীয় স্থান (Tourist Spot):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="115dp"
+        android:text="সারি সারি ঝাউবন, বালুর নরম বিছানা, সামনে বিশাল সমুদ্র। কক্সবাজার গেলে সকালে-বিকেলে সমুদ্রতীরে বেড়াতে মন চাইবে। নীল জলরাশি আর শোঁ শোঁ গর্জনের মনোমুগ্ধকর সমুদ্র সৈকতের নাম কক্সবাজার। অপরূপ সুন্দর বিশ্বের বৃহত্তম সমুদ্র সৈকত কক্সবাজার।
+কক্সবাজার সমুদ্র সৈকত, কুদুম গুহা, রেডিয়েন্ট ফিস ওয়ার্ল্ড, মহেশখালী দ্বীপ, রামু রাবার বাগান, রামু বৌদ্ধ বিহার, শাহপরীর দ্বীপ, সোনাদিয়া দ্বীপ, কুতুবদিয়া দ্বীপ, হিমছড়ি ঝর্ণা, ইনানী বীচ, ডুলাহাজরা সাফারি পার্ক, হিমছড়ি, ছেড়া দ্বীপ, সেন্টমার্টিন দ্বীপ। "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="300dp"
+        android:text="রাত যাপন (Night Stay Price):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="335dp"
+        android:text=" সর্বনিম্ন ২০০টাকা থেকে সর্বোচ্চ ১০,০০০ টাকায় কক্সবাজারে যাতযাপন করা যায়। হোটেল সিগালের ভাড়া ২,২০০-৭,০০০ টাকা। হোটেল শৈবালের ভাড়া ১,০০০-৩,০০০ টাকা। হোটেল লাবণীর ভাড়া ৬০০-৩,০০০ টাকা। উপলের ভাড়া ১০০০-১৫০০ টাকা। সি ক্রাউনের ভাড়া ২০০-৩,০০০ টাকা। জিয়া গেস্ট হল ৩০০-২,০০০ টাকা।
+ভাড়া অন্যান্য হোটেল রেস্টহাউসের ভাড়া প্রায়ই নির্ধারিত।"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="610dp">
+        <Button
+            android:id="@+id/back20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/bg2"
+    tools:context=".musuem_transport">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Lalbagh Fort || লালবাগ কেল্লা"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="যাতায়াত ব্যবস্থা (Transportation system):"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="115dp"
+        android:text="জাতীয় জাদুঘর শাহবাগ এলাকায় বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয়ের দক্ষিণ পাশে অবস্থিত। আপনার এলাকা থেকে শাহবাগ রুটের যেকোনো বাসে করে চলে আসতে পারেন এখানে। "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="620dp">
+        <Button
+            android:id="@+id/back15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:layout_margin="10dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

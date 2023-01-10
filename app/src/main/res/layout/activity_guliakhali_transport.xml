@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/bg2"
+    tools:context=".guliakhali_transport">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Guliakhali Sea Beach || গুলিয়াখালী সমুদ্র সৈকত"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:text="যাতায়াত ব্যবস্থা (Transportation system):"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="130dp"
+        android:text=" গুলিয়াখালী যাওয়ার উপায় ঢাকা থেকে চট্রগ্রামগামী যে কোন বাসে করেই যেতে পারবেন সীতাকুন্ড। এসি ও নন এসি এইসব বাসের ভাড়া ৪২০-১০০০০ টাকা। প্রয়োজন হলে বাসের সুপারভাইজারকে আগেই বলে রাখবেন সীতাকুন্ড নামিয়ে দিতে। ঢাকা থেকে সীতাকুন্ড মেইল ট্রেনে করে জনপ্রতি ১২০ টাকা ভাড়া সীতাকুণ্ড আসতে পারেন। ঢাকা থেকে আন্তঃনগর ট্রেনে করে ফেনী যেতে পারবেন, শ্রেনী ভেদে ভাড়া ২৬৫-৮০০ টাকা। ফেনী থেকে লোকাল বাসে করে সীতাকুণ্ড যেতে পারেন। ফেনী থেকে লোকাল বাসে সীতাকুণ্ড যেতে ৫০ থেকে ৭০ টাকা ভাড়া লাগবে। চট্রগ্রামের অলংকার মোড়, এঁকে খান মোড়, কদমতলী থেকে সীতাকুণ্ড যাবার বাস ও মেক্সি পাওয়া যায়। পছন্দ মতো জায়গা থেকে চলে আসতে পারবেন সীতাকুণ্ড বাজারে। সীতাকুন্ডের বাস স্ট্যান্ড ব্রীজের নিচ থেকে সরাসরি সিএনজি/অটো নিয়ে গুলিয়াখালি বীচের বাঁধ পর্যন্ত চলে যেতে পারবেন। রিজার্ভ ভাড়া নিবে ১৫০-৩০০ টাকা। দরদাম করে নিবেন। "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="620dp">
+        <Button
+            android:id="@+id/back27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:layout_margin="10dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

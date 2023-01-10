@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_margin="20dp"
+    tools:context=".lal_about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="National Musuem || জাতীয় জাদুঘর"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:text="দর্শনীয় স্থান (Tourist Spot):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="115dp"
+        android:text="বাংলাদেশের ইতিহাস, ঐতিহ্য, সংস্কৃতি ও সভ্যতার প্রতিটি ধাপের সঙ্গে পরিচিত হবার জন্যে
+জাতীয় জাদুঘর বিশেষ ভূমিকা রাখে। বিশেষ করে নতুন প্রজন্ম আমাদের দেশের ইতিহাস ও
+ঐতিহ্য পরিচিত হবার জন্যে জাতীয় জাদুঘরে যাওয়া উচিত। বাংলাদেশ সম্পর্কে জ্ঞান অর্জনের্জ র
+জন্য শিক্ষাভ্রমণের এক উপযুক্ত স্থান হতে পারে বাংলাদেশ জাদুঘর। "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="255dp"
+        android:text="পরিদর্শনের সময়সূচী (Time):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="290dp"
+        android:text="বৃহস্পতিবার বাদে সপ্তাহের বাকি দিনগুলোতে জাদুঘর সবার পরিদর্শনের জন্য উন্মুক্ত থাকে।
+
+শনি থেকে বুধবার সকাল ১০টা ৩০ মিনিট থেকে বিকেল ৫টা ৩০ মিনিট এবং শুক্রবার বিকেল ৩টা থেকে রাত ৮টা পর্যন্ত জাদুঘর সবার জন্য খোলা থাকে।"
+
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="410dp"
+        android:text="টিকেট মূল্য (Ticket Price):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="445dp"
+        android:text="কাউন্টার থেকে টিকেট কেটে ভেতরে প্রবেশ করতে হয়। প্রধান ফটকের সামনেই অবস্থিত টিকেট কাউন্টার। যেখানে টিকেটের মূল্য ৩ থেকে ১২ বছর বয়সীদের জন্য পাঁচ টাকা, ১২ বছরের বেশি বয়সীদের জন্য ১০ টাকা এবং বিদেশি দর্শনার্থীদের জন্য ৭৫ টাকা।
+তবে বিভিন্ন জাতীয় দিবসে, যেমন—পয়লা বৈশাখ, ২৬ মার্চ, ২১ ফেব্রুয়ারি প্রভৃতি দিনে শিশু ও ছাত্রছাত্রীদের বিনামূল্যে প্রবেশের ব্যবস্থা করে কর্তৃপক্ষ।"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="610dp">
+        <Button
+            android:id="@+id/back13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

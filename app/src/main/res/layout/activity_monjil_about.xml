@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_margin="20dp"
+    tools:context=".monjil_about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="Ahsan Manzil || আহসান মঞ্জিল"
+        android:background="#add8e6"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:text="দর্শনীয় স্থান (Tourist Spot):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="115dp"
+        android:text="আহসান মঞ্জিল ঢাকা শহরের দক্ষিণে বুড়িগঙ্গা নদীর তীরে অবস্থিত। এটি ঢাকার নবাবদের প্রাসাদ ছিল। ১৮৭২ সালে নওয়াব আবদুল গনি তাঁর পুত্র খাজা আহসানুল্লাহর নামে 'আহসান মঞ্জিল' নামকরণ করেন। ২৩ টি গ্যালারী নিয়ে ১৯৯২ সালে দর্শনীয় স্থানটি পুন:সংস্কারের মাধ্যমে জাদুঘরে (আহসান মঞ্জিল জাদুঘর) রুপান্তর করে দর্শকদের জন্য উন্মুক্ত করা হয়। "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="250dp"
+        android:text="পরিদর্শনের সময়সূচী (Time):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="285dp"
+        android:text="শনিবার থেকে বুধবার এই পাঁচ দিন সকাল ১০ টা ৩০ মিনিট থেকে বিকাল ৫ টা ৩০ মিনিট পর্যন্ত আহসান মঞ্জিল দর্শনার্থীদের জন্য খোলা থাকে। আর প্রতি শুক্রবার বিকাল ৩টা থেকে রাত ৮টা পর্যন্ত আহসান মঞ্জিল পরিদর্শন করা যায়। প্রতি বৃহস্পতিবার এবং অন্যান্য সরকারী ছুটির দিনে আহসান মঞ্জিল জাদুঘর সম্পর্ণ বন্ধ থাকে"
+
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="410dp"
+        android:text="টিকেট মূল্য (Ticket Price):"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="445dp"
+        android:text="সাধারণ দর্শনার্থীদের আহসান মঞ্জিল পরিদর্শন করতে জনপ্রতি ২০ টাকা দিয়ে প্রবেশ টিকিট সংগ্রহ করতে হয়। ১২ বছরের নিচে অপ্রাপ্ত শিশুরা জনপ্রতি ১০ টাকায় প্রবেশ করতে পারে। বিদেশিদের আহসান মঞ্জিলে প্রবেশ করতে জনপ্রতি ১০০ টাকা দিতে হয়। প্রতিবন্ধী দর্শনার্থীদের জন্য আহসান মঞ্জিলে কোনো টিকিটের প্রয়োজন হয় না। "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="610dp">
+        <Button
+            android:id="@+id/back11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#7fffd4"
+            android:text="Back"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>
